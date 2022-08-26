@@ -1,3 +1,4 @@
+import javax.swing.text.MutableAttributeSet;
 import java.nio.channels.Pipe;
 import java.util.Arrays;
 import java.util.Map;
@@ -4834,14 +4835,6 @@ public class Main {
 //        }
 //        System.out.println(multi1);
 
-        double sum = 0;
-        double sum1 = 0;
-        for (int i = 0; i < 7; i++) {
-            for (int j = 0; j < 8; j++) {
-
-            }
-        }
-
 //       41 double sum = 0;
 //        double n = 8;
 //        for (int i = 1; i < 100; i++) {
@@ -4856,6 +4849,21 @@ public class Main {
 //
 //        }
 
+
+        double n = 7;
+        double k = 0;
+        for (double i = 1; i < 10; i++) {
+            if (n == Math.pow(i, 3)) {
+                k = i;
+                break;
+            }
+        }
+        if (n == Math.pow(k, 3)) {
+            System.out.println(true);
+        }
+        else {
+            System.out.println(false);
+        }
 
 
 
