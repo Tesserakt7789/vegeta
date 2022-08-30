@@ -1132,19 +1132,20 @@ public class Main {
 //        }
         //50
 
-//        for (int i = 100; i < 1000 ; i++) {
-//            for (int j = 10; j < 100 ; j++) {
-//                if ( i*16==Math.pow(j,2)){
-//                    System.out.println(i);
-//
-//
-//            }
-//            break;
-//
-//
-//        }
+        /*for (int i = 100; i < 1000; i++) {
+            for (int j = 10; j < 100; j++) {
+                if (i * 16 == Math.pow(j, 2)) {
+                    System.out.println(i);
 
-        //51
+
+                }
+
+
+            }
+            break;
+        }*/
+
+            //51
 //        boolean t=false;
 //        for (int i = 10000; i > 1000 ; i--) {
 //
@@ -1161,7 +1162,7 @@ public class Main {
 //
 //                  break;
 //                  }
-        //57
+            //57
 //        Scanner in=new Scanner(System.in);
 //        System.out.println("input n");
 //        int n = in.nextInt();
@@ -1172,7 +1173,7 @@ public class Main {
 //            count++;
 //        }
 //        System.out.println(count);
-        //59
+            //59
 //        Scanner in=new Scanner(System.in);
 //        System.out.println("input n");
 //        int n = in.nextInt();
@@ -1182,7 +1183,7 @@ public class Main {
 //            n = n / 10;
 //        }
 //        System.out.println(multi);
-        //61
+            //61
 //        Scanner in=new Scanner(System.in);
 //        System.out.println("input n");
 //        int n = in.nextInt();
@@ -1197,7 +1198,7 @@ public class Main {
 //        }
 //        System.out.println(sum);
 
-        //60
+            //60
 //        Scanner in=new Scanner(System.in);
 //        System.out.println("input n");
 //        int n = in.nextInt();
@@ -1209,7 +1210,7 @@ public class Main {
 //            }
 //            System.out.print(num+" ");
 //        }
-        //62
+            //62
 //        Scanner in = new Scanner(System.in);
 //        System.out.println("input n");
 //        int n = in.nextInt();
@@ -1232,7 +1233,7 @@ public class Main {
 //            }
 //            System.out.print(moon + " ");
 //        }
-        //66
+            //66
 /*
         Scanner in = new Scanner(System.in);
         System.out.println("input n");
@@ -1293,7 +1294,7 @@ public class Main {
  */
 
 
-        //68
+            //68
         /*
         int [] num = {-1,-9,-7,-4,5,3,2};
         int sum = 0;
@@ -1323,7 +1324,7 @@ public class Main {
         }
 
          */
-        //69
+            //69
         /*
         int multi = 1;
         int count = 0;
@@ -1337,7 +1338,7 @@ public class Main {
         System.out.println(multi/count);
 
          */
-        //70
+            //70
         /*
         int multi = 1;
         int count = 0;
@@ -1351,7 +1352,7 @@ public class Main {
         }
         System.out.println(multi/count);
         */
-        //71
+            //71
         /*
         int sum = 0;
         int count = 0;
@@ -1366,7 +1367,7 @@ public class Main {
         }
         System.out.println(sum/count);
         */
-        //72
+            //72
         /*
         int sum = 0;
         int moon [] = {2,3,7,9,5,8};
@@ -1379,7 +1380,7 @@ public class Main {
         System.out.println(sum);
 
          */
-        //73
+            //73
         /*
         int multi = 1;
         int moon [] = {1,2,3,4,5,6};
@@ -1392,7 +1393,7 @@ public class Main {
         System.out.println(multi);
 
          */
-        //74
+            //74
         /*
         int multi = 1;
         int count = 0;
@@ -1407,7 +1408,7 @@ public class Main {
         System.out.println(multi/count);
 
          */
-        //75
+            //75
         /*
         int sum = 0;
         int moon [] = {-6,-9,6,2,3};
@@ -1421,7 +1422,7 @@ public class Main {
 
 
          */
-        //76
+            //76
         /*
         int c = 0;
         int k = 2;
@@ -1453,7 +1454,7 @@ public class Main {
         System.out.println(c+" "+s);
 
          */
-        //84
+            //84
         /*
         int k = 3;
         int sum = 0;
@@ -1469,7 +1470,7 @@ public class Main {
         System.out.println(sum/count);
 
          */
-        //85
+            //85
         /*
         int k = 2;
         int sum = 0;
@@ -1484,7 +1485,7 @@ public class Main {
         System.out.println(sum);
 
          */
-        //87
+            //87
 /*
         int k = 2;
         int multi = 1;
@@ -1500,7 +1501,7 @@ public class Main {
         }
         System.out.println((multi/count)*k);
 */
-        //81
+            //81
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input k");
@@ -1534,7 +1535,7 @@ public class Main {
         System.out.println(multi);
 
          */
-        //83
+            //83
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input k");
@@ -1551,7 +1552,7 @@ public class Main {
         System.out.println(c);
 
          */
-        //86
+            //86
 //        Scanner in = new Scanner(System.in);
 //        System.out.println("input k");
 //        int k = in.nextInt();
@@ -1564,7 +1565,7 @@ public class Main {
 //
 //        }
 //        System.out.println(multi);
-        //71
+            //71
         /*
         for (double x = 2.4; x <= 7.6 ; x+=0.2) {
             double y = Math.tan(2*x + Math.pow(x,2));
@@ -1574,7 +1575,7 @@ public class Main {
 
 
          */
-        //80
+            //80
         /*
         double x = 2.4;
         while (x <= 7.6) {
@@ -1584,7 +1585,7 @@ public class Main {
         }
 
          */
-        //76
+            //76
         /*
         double y = 0;
         int  x = -5;
@@ -1601,7 +1602,7 @@ public class Main {
             System.out.println(y);
         }
         */
-        //
+            //
         /*
         double y = 0;
         for (int x = -5; x <=5 ; x+=2) {
@@ -1615,7 +1616,7 @@ public class Main {
         }
 
          */
-        //81
+            //81
         /*
         double y = 0;
         double x = -7.5;
@@ -1626,7 +1627,7 @@ public class Main {
         }
 
          */
-        //90
+            //90
         /*
         double y = 0;
         for (int x =-30 ; x <=30 ; x+=3.5) {
@@ -1641,7 +1642,7 @@ public class Main {
         }
 
          */
-        //121
+            //121
         /*
         double x = 0;
         double y = 0;
@@ -1685,7 +1686,7 @@ public class Main {
         System.out.println(multi);
 
          */
-        //125
+            //125
         /*
         double x = 0;
         double y = 0;
@@ -1710,7 +1711,7 @@ public class Main {
         System.out.println(sum);
 
          */
-        //72
+            //72
         /*
         for (double x = -5.4; x <=1.2; x+=0.4) {
             double y = Math.pow(1 / Math.tan(Math.pow(x,2)),2);
@@ -1719,7 +1720,7 @@ public class Main {
         }
 
          */
-        //73
+            //73
         /*
         for (double x = 7.5; x <= 12.5; x+=0.2) {
             double y = Math.pow(x+1,2);
@@ -1728,7 +1729,7 @@ public class Main {
 
 
          */
-        //74
+            //74
         /*
         for (double x = -3.8; x <=5.4; x+=0.3) {
             double y = Math.pow(2,x+4);
@@ -1736,7 +1737,7 @@ public class Main {
         }
 
          */
-        //75
+            //75
         /*
         for (double x = -1 * Math.PI; x <= Math.PI ; x+= Math.PI / 8) {
             double y = Math.pow(Math.sin(x),2) + Math.cos(x);
@@ -1744,7 +1745,7 @@ public class Main {
         }
 
          */
-        //77
+            //77
         /*
         double y = 0;
         for (int x =-8 ; x <=8 ; x+=3) {
@@ -1759,7 +1760,7 @@ public class Main {
         }
 
          */
-        //78
+            //78
         /*
         double y = 0;
         int x = 10;
@@ -1775,7 +1776,7 @@ public class Main {
         System.out.println(y);
 
          */
-        //79
+            //79
         /*
         double y = 0;
         int x = -4;
@@ -1791,7 +1792,7 @@ public class Main {
         System.out.println(y);
 
          */
-        //80
+            //80
         /*
         double y = 0;
         for (double x = -5; x <= 5; x+=2) {
@@ -1805,7 +1806,7 @@ public class Main {
         System.out.println(y);
 
          */
-        //82
+            //82
         /*
         for (double x = -2.7; x <= 3.3; x+=0.5) {
             double y = Math.pow( x + Math.pow(x,2),7);
@@ -1813,14 +1814,14 @@ public class Main {
         }
 
          */
-        //83
+            //83
         /*
         for (double x = -4.8; x <= 5.2; x+=0.2) {
             double y = Math.pow(Math.atan(x+1),2);
             System.out.println(y);
         }
          */
-        //84
+            //84
         /*
         for (double x = -6.4; x <= 2.4; x+=0.2) {
             double y = Math.pow(Math.E,1 / Math.tan(x));
@@ -1828,7 +1829,7 @@ public class Main {
         }
 
          */
-        //85
+            //85
         /*
         for (double x = -3.3; x <= 2.7; x+=0.3) {
             double y = Math.abs(2 * x + Math.pow(x,3));
@@ -1836,7 +1837,7 @@ public class Main {
         }
 
          */
-        //86
+            //86
         /*
         double y = 0;
         for (double x = -5; x <= 8 ; x+=2) {
@@ -1851,7 +1852,7 @@ public class Main {
         System.out.println(y);
 
          */
-        //87
+            //87
         /*
         double y = 0;
         for (double x = 10 ; x <= 23 ; x+= 3.2) {
@@ -1866,7 +1867,7 @@ public class Main {
         System.out.println(y);
 
          */
-        //88
+            //88
         /*
         double y = 0;
         for (double x = -3 ; x <= 3 ; x+= 0.8) {
@@ -1880,7 +1881,7 @@ public class Main {
         System.out.println(y);
 
          */
-        //89
+            //89
         /*
         double y = 0;
         for (double x = -5 ; x <= 9 ; x+= 1.5) {
@@ -1894,7 +1895,7 @@ public class Main {
         System.out.println(y);
 
          */
-        //122
+            //122
         /*
         double x = 0;
         double y = 0;
@@ -1919,7 +1920,7 @@ public class Main {
         System.out.println(sum);
 
          */
-        //124
+            //124
         /*
         double x = 0;
         double y = 0;
@@ -1938,7 +1939,7 @@ public class Main {
         System.out.println(multi);
 
          */
-        //126
+            //126
         /*
         double x = 0;
         double y = 0;
@@ -1963,7 +1964,7 @@ public class Main {
         System.out.println(sum);
 
          */
-        //127
+            //127
         /*
         double x = 0;
         double y = 0;
@@ -1988,7 +1989,7 @@ public class Main {
         System.out.println(multi);
 
          */
-        //128
+            //128
         /*
         double x = 0;
         double y = 0;
@@ -2007,7 +2008,7 @@ public class Main {
         System.out.println(multi);
 
          */
-        //129
+            //129
         /*
 
         double x = 0;
@@ -2029,7 +2030,7 @@ public class Main {
          */
 
 
-        //130
+            //130
         /*
         double x = 0;
         double y = 0;
@@ -2054,7 +2055,7 @@ public class Main {
         System.out.println(multi);
 
          */
-        //131
+            //131
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input x");
@@ -2071,7 +2072,7 @@ public class Main {
         }
 
          */
-        //132
+            //132
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input x");
@@ -2090,7 +2091,7 @@ public class Main {
         }
 
          */
-        //133
+            //133
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input x");
@@ -2107,7 +2108,7 @@ public class Main {
         }
 
          */
-        //134
+            //134
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input x");
@@ -2127,7 +2128,7 @@ public class Main {
         }
 
          */
-        //135
+            //135
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input x");
@@ -2146,7 +2147,7 @@ public class Main {
         }
 
          */
-        //136
+            //136
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input x");
@@ -2163,7 +2164,7 @@ public class Main {
         }
 
          */
-        //137
+            //137
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input x");
@@ -2179,7 +2180,7 @@ public class Main {
             System.out.println(y);
 
          */
-        //138
+            //138
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input x");
@@ -2195,7 +2196,7 @@ public class Main {
             System.out.println(y);
 
          */
-        //139
+            //139
 /*
         Scanner in = new Scanner(System.in);
         System.out.println("input x");
@@ -2215,7 +2216,7 @@ public class Main {
  */
 
 
-        //140
+            //140
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input x");
@@ -2233,7 +2234,7 @@ public class Main {
             System.out.println(y);
 
          */
-        //141
+            //141
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input a");
@@ -2250,7 +2251,7 @@ public class Main {
         System.out.println(w);
 
          */
-        //142
+            //142
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input a");
@@ -2266,7 +2267,7 @@ public class Main {
         System.out.println(sum);
 
          */
-        //143
+            //143
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input n");
@@ -2283,7 +2284,7 @@ public class Main {
         System.out.println(p);
 
          */
-        //144
+            //144
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input c");
@@ -2299,7 +2300,7 @@ public class Main {
         System.out.println(sum2);
 
          */
-        //145
+            //145
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input c");
@@ -2315,7 +2316,7 @@ public class Main {
         System.out.println(sum);
 
          */
-        //146
+            //146
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input с");
@@ -2331,7 +2332,7 @@ public class Main {
         System.out.println(sum);
 
          */
-        //147
+            //147
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input n");
@@ -2349,7 +2350,7 @@ public class Main {
         System.out.println(sum);
 
          */
-        //148
+            //148
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input f");
@@ -2365,7 +2366,7 @@ public class Main {
         System.out.println(multi);
 
          */
-        //149
+            //149
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input a");
@@ -2381,7 +2382,7 @@ public class Main {
         System.out.println(sum);
 
          */
-        //150
+            //150
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input b");
@@ -2397,7 +2398,7 @@ public class Main {
         System.out.println(multi);
 
          */
-        //88
+            //88
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input n");
@@ -2414,7 +2415,7 @@ public class Main {
         System.out.println(sum);
 
          */
-        //89
+            //89
         /*
         int count = 0;
         int [] moon = {1,2,3,4,5,6,7,8,9};
@@ -2431,7 +2432,7 @@ public class Main {
         System.out.println(count);
 
          */
-        //90
+            //90
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input n");
@@ -2450,7 +2451,7 @@ public class Main {
         System.out.println(sum);
 
          */
-        //91
+            //91
         /*
         int sum = 0;
         int count = 0;
@@ -2466,7 +2467,7 @@ public class Main {
         System.out.println(sum/count);
 
          */
-        //92
+            //92
         /*
 
         int multi = 1;
@@ -2483,7 +2484,7 @@ public class Main {
         System.out.println(multi/count);
 
          */
-        //93
+            //93
         /*
         int count = 0;
         int count1 = 0;
@@ -2507,7 +2508,7 @@ public class Main {
          */
 
 
-        //94
+            //94
         /*
         int c = 0;
         int [] moon = {0,1,2,3,4,0,5,6,7,0};
@@ -2520,7 +2521,7 @@ public class Main {
         System.out.println(c);
 
          */
-        //95
+            //95
         /*
         int sum =0;
         int count = 0;
@@ -2535,7 +2536,7 @@ public class Main {
         System.out.println(sum/count);
 
          */
-        //96
+            //96
         /*
         int multi = 1;
         int count = 0;
@@ -2551,7 +2552,7 @@ public class Main {
         System.out.println(multi/count);
 
          */
-        //97
+            //97
         /*
         int c = 0;
         int [] moon= {1,2,3,14,6,9,28};
@@ -2564,7 +2565,7 @@ public class Main {
         System.out.println(c+" ");
 
          */
-        //98
+            //98
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input k");
@@ -2580,7 +2581,7 @@ public class Main {
         System.out.println(sum);
 
          */
-        //99
+            //99
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input m");
@@ -2596,7 +2597,7 @@ public class Main {
         System.out.println(multi);
 
          */
-        //100
+            //100
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input t");
@@ -2613,7 +2614,7 @@ public class Main {
         System.out.println(c+" ");
 
          */
-        //101
+            //101
         /*
         int multi = 1;
         int [] moon = {1,2,35,10,70,};
@@ -2626,7 +2627,7 @@ public class Main {
         System.out.println(multi);
 
          */
-        //102
+            //102
         /*
         int multi = 1;
         int count = 0;
@@ -2645,7 +2646,7 @@ public class Main {
         System.out.println(multi/count);
 
          */
-        //103
+            //103
         /*
         int sum = 0;
         int count = 0;
@@ -2662,7 +2663,7 @@ public class Main {
         System.out.println(sum/count);
 
          */
-        //104
+            //104
         /*
         int multi = 1;
         int count = 0;
@@ -2676,7 +2677,7 @@ public class Main {
         System.out.println(multi/count);
 
          */
-        //106
+            //106
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input t");
@@ -2691,7 +2692,7 @@ public class Main {
         System.out.println(c+" ");
 
          */
-        //108
+            //108
         /*
         int [] moon = {6,2,-8,2,5,6,9};
         int max = moon[0];
@@ -2703,7 +2704,7 @@ public class Main {
         System.out.println(max);
 
          */
-        //109
+            //109
         /*
         int [] moon = {9,8,7,4,8,2,5,2};
         int min = moon [0];
@@ -2715,7 +2716,7 @@ public class Main {
         System.out.println(min);
 
          */
-        //110
+            //110
         /*
         int [] moon = {6,2,-8,2,5,6,9};
         int max = moon[0];
@@ -2734,7 +2735,7 @@ public class Main {
         System.out.println(sum);
 
          */
-        //111
+            //111
         /*
         int [] moon = {6,2,-8,2,5,6,9};
         int max = moon[0];
@@ -2753,7 +2754,7 @@ public class Main {
         System.out.println(multi);
 
          */
-        //114
+            //114
 //1
         /*int [] moon = {77,33,77,2,77,5,1,6};
         //int max = moon[0];
@@ -2791,7 +2792,7 @@ public class Main {
         System.out.println(d);
 
          */
-        //115
+            //115
         /* //2
         int [] moon = {77,33,77,2,77,5,1,6};
         int max = moon[moon.length-1];
@@ -2811,7 +2812,7 @@ public class Main {
         System.out.println(d);
 
          */
-        //115
+            //115
         /* //1
         int [] moon = {77,33,77,2,77,5,1,6};
         int d = 0;
@@ -2830,7 +2831,7 @@ public class Main {
         System.out.println(d);
 
          */
-        //116
+            //116
         /*
         int [] moon = {77,33,77,2,77,5,1,6};
         int min = moon[0];
@@ -2863,7 +2864,7 @@ public class Main {
             }
 
  */
-        //117
+            //117
         /* //1
         int [] moon = {4,77,12,9,7};
         int f = 0;
@@ -2880,7 +2881,7 @@ public class Main {
         System.out.println(f);
 
          */
-        //117
+            //117
         /* //2
         int [] moon = {7,13,7,2,80,2,9,5};
         int min = moon[moon.length-1];
@@ -2968,7 +2969,7 @@ public class Main {
         }
 
          */
-        //2
+            //2
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input n");
@@ -2997,7 +2998,7 @@ public class Main {
         }
 
          */
-        //3
+            //3
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input x");
@@ -3025,7 +3026,7 @@ public class Main {
         }
 
          */
-        //4
+            //4
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input j");
@@ -3056,7 +3057,7 @@ public class Main {
         }
 
          */
-        //5
+            //5
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input c");
@@ -3086,7 +3087,7 @@ public class Main {
 
         }
         */
-        //118_1
+            //118_1
         /*  в первом форе мы узнаём количество элементов меньше 0
         int[] array={3,-5,-5,6,-7,4};
         int count=0;
@@ -3111,7 +3112,7 @@ public class Main {
         }
 
          */
-        //118_2
+            //118_2
         /*
         int[] array={3,-5,-5,6,-7,4};
         for (int i = 0; i < array.length; i++) {
@@ -3125,7 +3126,7 @@ public class Main {
 
         }
         */
-        //119_1
+            //119_1
         /*
         int[] moon = {11, 28, 3, 44, 58, 6, 7, 8, 49};
         int count = 0;
@@ -3148,7 +3149,7 @@ public class Main {
         }
 
          */
-        //119_2
+            //119_2
         /*
         int [] moon = {11, 28, 3, 44, 58, 6, 7, 8, 49};
         for (int i = 0; i < moon.length; i++) {
@@ -3163,7 +3164,7 @@ public class Main {
         }
 
          */
-        //120_1
+            //120_1
         /*
         int[] moon = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         int a = 2;
@@ -3189,7 +3190,7 @@ public class Main {
 
          */
 
-        //120_2
+            //120_2
         /*
         int a = 2;
         int f = 4;
@@ -3204,16 +3205,16 @@ public class Main {
         }
 
          */
-        //119 удалить элементы которые делятся на 7
-        //121 удалить элементы у которых нечетный индекс
-        //122 удалить элементы у которых четный индекс
-        //123 удалить элементы которые при делении на число k остаток будет 2
-        //124 удалить элементы которые модуль больше k
-        //125 удалить элементы которые четные
-        //126 удалить элементы которые нечетные
-        //127 удалить элементы которых квадрат меньше k
+            //119 удалить элементы которые делятся на 7
+            //121 удалить элементы у которых нечетный индекс
+            //122 удалить элементы у которых четный индекс
+            //123 удалить элементы которые при делении на число k остаток будет 2
+            //124 удалить элементы которые модуль больше k
+            //125 удалить элементы которые четные
+            //126 удалить элементы которые нечетные
+            //127 удалить элементы которых квадрат меньше k
 
-        //121_1
+            //121_1
         /*
         int[] moon = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         int count = 0;
@@ -3236,7 +3237,7 @@ public class Main {
         }
 
          */
-        //121_2
+            //121_2
         /*
         int [] moon = {1,2,3,4,5,6,7,8,9};
         for (int i = 0; i < moon.length; i++) {
@@ -3249,7 +3250,7 @@ public class Main {
         }
 
          */
-        //122_1
+            //122_1
         /*
         int[] moon = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         int count = 0;
@@ -3272,7 +3273,7 @@ public class Main {
         }
 
          */
-        //122_2
+            //122_2
         /*
         int [] moon = {1,2,3,4,5,6,7,8,9};
         for (int i = 0; i < moon.length; i++) {
@@ -3285,7 +3286,7 @@ public class Main {
         }
 
          */
-        //123_1
+            //123_1
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input k");
@@ -3311,7 +3312,7 @@ public class Main {
         }
 
          */
-        //123_2
+            //123_2
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input k");
@@ -3327,7 +3328,7 @@ public class Main {
         }
 
          */
-        //124_1
+            //124_1
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input k");
@@ -3353,7 +3354,7 @@ public class Main {
         }
 
          */
-        //124_2
+            //124_2
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input k");
@@ -3369,7 +3370,7 @@ public class Main {
         }
 
          */
-        //125_1
+            //125_1
         /*
         int[] moon = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         int count = 0;
@@ -3392,7 +3393,7 @@ public class Main {
         }
 
          */
-        //125_2
+            //125_2
         /*
         int [] moon = {1,2,3,4,5,6,7,8,9};
         for (int i = 0; i < moon.length; i++) {
@@ -3405,7 +3406,7 @@ public class Main {
         }
 
          */
-        //126_1
+            //126_1
         /*
         int[] moon = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         int count = 0;
@@ -3428,7 +3429,7 @@ public class Main {
         }
 
          */
-        //126_2
+            //126_2
         /*
         int [] moon = {1,2,3,4,5,6,7,8,9};
         for (int i = 0; i < moon.length; i++) {
@@ -3441,7 +3442,7 @@ public class Main {
         }
 
          */
-        //127_1
+            //127_1
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input k");
@@ -3488,8 +3489,7 @@ public class Main {
          */
 
 
-
-        //6
+            //6
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input n");
@@ -3520,7 +3520,7 @@ public class Main {
 
          */
 
-        //7
+            //7
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input k");
@@ -3553,7 +3553,7 @@ public class Main {
          */
 
 
-        //8
+            //8
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input b");
@@ -3582,7 +3582,7 @@ public class Main {
         }
 
          */
-        //9
+            //9
         /*
         Scanner in = new Scanner(System.in);
         System.out.println("input c");
@@ -3625,8 +3625,8 @@ public class Main {
         }
 
          */
-        //ЕСТЬ МАССИВ НАДО получить новый массив
-        //128 НАДО получить новый массив из всех положительных элементов, кождому числу надо прибовлять максимум
+            //ЕСТЬ МАССИВ НАДО получить новый массив
+            //128 НАДО получить новый массив из всех положительных элементов, кождому числу надо прибовлять максимум
 //        129 из каждой два вектора, начиная с первого элемента, брать элемент с наибольшим значением модуля;
 //        130. из вектора,  надо поменять местами заменяя значения каждого элемента с индексом на значения предшествующего ему элемента с нечетным индексом;
 //        131. Добавление нулевого значения после каждого положительного элемента вектора;
@@ -3637,7 +3637,7 @@ public class Main {
 //        увеличение значения наибольшего элемента заданного вектора;
 //        136․ надо получить новый массив начиная с первого элемента каждый 3 элемент сделать нулевым а  к остальные прибавить максимум
 //        137 удалить первый максимум и  последний минимум
-        //128_1
+            //128_1
         /*
         int [] moon = {3,-5,8,3,9,-10,-7,-2};
         int max = moon[0];
@@ -3665,7 +3665,7 @@ public class Main {
         }
 
          */
-        //128_2
+            //128_2
         /*
         int [] moon = {-7,7,9,2,-8,-1};
         int max = moon[0];
@@ -3687,7 +3687,7 @@ public class Main {
         }
 
          */
-        //129_1
+            //129_1
 
         /*int [] moon = {5,8,2,5,97,3};
         int max=0;
@@ -3707,7 +3707,7 @@ public class Main {
         }*/
 
 
-        //131_1
+            //131_1
         /*int [] moon = {-9,5,-2,7,-5,2,4,1,8,9};
         int count = 0;
         for (int i = 0; i < moon.length; i++) {
@@ -3726,7 +3726,7 @@ public class Main {
         for (int i = 0; i < b.length; i++) {
             System.out.println(b[i]);
         }*/
-        //131_2
+            //131_2
         /*int [] moon = {-7,-5,-9,-7,-5,-2,90,11};
         for (int i = 0; i < moon.length; i++) {
             if (moon[i] > 0) {
@@ -3736,7 +3736,7 @@ public class Main {
                 }
             }
         }*/
-        //130_1
+            //130_1
         /*int [] moon = {1,4,2,7,8,0,5,7,9,3};
         int g = 0;
         int [] b;
@@ -3755,9 +3755,7 @@ public class Main {
             }*/
 
 
-
-
-        //137_1
+            //137_1
         /*int [] moon = {4,7,9,2,3,8,5};
         int max = moon[0];
         int min = moon[0];
@@ -3777,7 +3775,7 @@ public class Main {
         }*/
 
 
-        //132
+            //132
         /*Scanner in = new Scanner(System.in);
         System.out.println("input b");
         int b = in.nextInt();
@@ -3813,9 +3811,9 @@ public class Main {
         }
 
         }*/
-        //136 с начала 0 потом отрицательные потом положительные
+            //136 с начала 0 потом отрицательные потом положительные
 
-        //136
+            //136
         /*int [] moon = {1,2,7,9,5,21};
         int max = moon[0];
         int [] b;
@@ -4503,8 +4501,6 @@ public class Main {
 //        }
 
 
-
-
 //      71  for (double x = 2.4; x < 7.6; x+=0.2) {
 //            double y = Math.tan(2*x + Math.pow(x,2));
 //            System.out.println(y);
@@ -4850,7 +4846,7 @@ public class Main {
 //        }
 
 
-        double n = 7;
+        /*double n = 7;
         double k = 0;
         for (double i = 1; i < 10; i++) {
             if (n == Math.pow(i, 3)) {
@@ -4863,38 +4859,67 @@ public class Main {
         }
         else {
             System.out.println(false);
-        }
+        }*/
+
+
+        /*Scanner in = new Scanner (System.in);
+        System.out.println("input n");
+        double n = in.nextDouble();
+        boolean z = n == Math.pow(3,n)? true:false;
+        System.out.println(z);*/
+
+        /*int x = 475699998;
+        int num = (int)Math.log10(x)+1;
+        System.out.println(num);*/
+
+        /*int n = 123456987;
+        int count = 0;
+        for ( ; n != 0 ; n /= 10)
+            ++count;
+        System.out.println(count);*/
+
+       /*int [] [] moon = new  int [][]{
+               {1,2,3},
+               {4,5,6},
+               {7,8,9}
+       };
+        for (int i = 0; i < moon.length; i++) {
+            for (int j = 0; j < moon[i].length; j++) {
+                System.out.print(moon[i][j]);
+            }
+            System.out.println();
+        }*/
 
 
 
+        /*68 int count = 0;
+        int sum = 0;
+        int [] moon = {6,4,6,3,-9,-6,-6,3};
+        for (int i:moon
+             ) {
+            if (i > 0) {
+                sum+=i;
+                count+=i;
+            }
+            System.out.println(count);
+
+        }*/
+
+        /*72 int sum = 0;
+        int [] moon = {1,2,3,4,5,6,7,8,9};
+        for (int i = 0; i < moon.length; i++) {
+            if (i % 2 == 0) {
+                sum += i;
+            }
+            System.out.println(sum);
+        }*/
 
         
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
 
 
     }
-}
