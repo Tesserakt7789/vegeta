@@ -5271,6 +5271,659 @@ public class Main {
         System.out.println(multi/count);*/
 
 
+      /* 108  int [] moon = {6,2,-8,2,5,-6,9};
+        int max = moon[0];
+        for (int i = 0; i < moon.length; i++) {
+            if (moon[i] > max) {
+                max = moon[i];
+            }
+        }
+        System.out.println(max);*/
+
+
+       /* 109 int [] moon = {-6,8,2,-9};
+        int min = moon [0];
+        for (int i = 0; i < moon.length; i++) {
+            if (moon[i] < min) {
+                min = moon[i];
+            }
+        }
+        System.out.println(min);*/
+
+
+      /* 110 int [] moon = {-9,10,68,8,4,2,-1};
+        int min = moon [0];
+        int max = moon [0];
+        for (int i = 0; i < moon.length; i++) {
+            if (moon[i] < min) {
+                min = moon[i];
+            }
+            if (moon[i] > max){
+                max = moon[i];
+            }
+        }
+        System.out.println(max+min);*/
+
+
+       /* 111 int [] moon = {89,3,-1,2,3,4,5,-9,77};
+        int max = moon[0];
+        int min = moon[0];
+        for (int i = 0; i < moon.length; i++) {
+            if (moon[i] > max) {
+                max = moon[i];
+            }
+            if (moon[i] < min) {
+                min = moon[i];
+            }
+        }
+        System.out.println(max*min);*/
+
+
+      /* 112 int [] moon = {9,3,6,2,6,23,67,8};
+        int max = moon[0];
+        int s = 0;
+        for (int i = 0; i < moon.length; i++) {
+            if (moon[i] > max) {
+                max = moon[i];
+                s = i;
+            }
+        }
+        System.out.println(max+s);*/
+
+        /* 113 int [] moon =  {5,9,24,67,1,11,2,50};
+        int min = moon[0];
+        int s = 0;
+        for (int i = 0; i < moon.length; i++) {
+            if (moon[i] < min) {
+                min = moon[i];
+                s = i;
+            }
+        }
+        System.out.println(min+s);*/
+
+        /* 114 int [] moon = {17,33,77,2,77,5,1,6};
+        for (int i = 0; i < moon.length; i++) {
+            if (moon[i] > moon[i+1]){
+                System.out.println(i);
+                break;
+            }
+            else {
+                System.out.println(i+1);
+                break;
+            }
+        }*/
+
+       /* 115 int [] moon = {9,313,7,2,98,5,11,6};
+        int d = 0;
+        for (int i = moon.length-1; i >=0;i--) {
+            if (moon[i] > moon[i-1]) {
+                d=i;
+                break;
+
+            }
+            else{
+                d=i-1;
+                break;
+            }
+
+        }
+        System.out.println(d);*/
+
+        /* 116 int [] moon = {5,9,1,7,8,5};
+        for (int i = 0; i < moon.length; i++) {
+            if (moon[i]<moon[i+1]){
+                System.out.println(i);
+                break;
+            }
+            else {
+                System.out.println(i+1);
+                break;
+            }
+        }*/
+
+        /* 117 int [] moon = {4,7,32,87,0,4,7,4,2,5,7,9};
+        int s = 0;
+        for (int i = moon.length-1; i <=0 ; i--) {
+            if (moon[i]<moon[i-1]){
+                s = i;
+                break;
+            }
+            else {
+                s = i-1;
+                break;
+            }
+        }
+        System.out.println(s);*/
+
+
+        /* 118 int [] moon = {-9,6,3,7,-8,-1,-2,-5};
+        int count = 0;
+        for (int i = 0; i < moon.length; i++) {
+            if (moon[i] < 0) {
+                count++;
+            }
+            int b[]=new int[count];
+            int j=0;
+            for (int k = 0; k < moon.length; k++) {
+                if (moon[k] < 0) {
+                    b[j]= moon[k];
+                    j++;
+
+                }
+            }
+            for (int k = 0; k < b.length; k++) {
+                System.out.println(b[k]);
+            }
+        }*/
+
+        /* 119 int [] moon = {1,2,3,4,5,6,7,8,9};
+        for (int i = 0; i < moon.length; i++) {
+            if(moon[i] % 7 != 0){
+                int b[]= new int [] {moon[i]};
+                for (int j = 0; j <b.length; j++) {
+                    System.out.println(b[j]);
+
+                }
+            }
+
+        }*/
+
+
+        /* 120 Scanner in = new Scanner(System.in);
+        System.out.println("input a");
+        int a = in.nextInt();
+        System.out.println("input b");
+        int b = in.nextInt();
+        int [] moon = {1,2,3,4,5,6,7,8,9};
+            for (int i = 0; i < moon.length; i++) {
+                if (moon[i] < a ||moon[i]  > b) {
+                    int arr[]=new int[]{moon[i]};
+                    for (int j = 0; j < arr.length; j++) {
+                        System.out.println(arr[j]);
+
+                    }
+                }
+
+
+            }*/
+
+       /* 121  int [] moon = {1,2,3,4,5,6,7,8,9};
+        int s = 0;
+        for (int i = 0; i < moon.length; i++) {
+            if (i % 2 == 0) {
+                int b [] = new int[]{moon[i]};
+                for (int j = 0; j < b.length; j++) {
+                    System.out.println(b[j]);
+                }
+            }
+        }*/
+
+        /* 122 int [] moon = {1,2,3,4,5,6,7,8,9};
+        int s = 0;
+        for (int i = 0; i < moon.length; i++) {
+            if (i % 2 != 0) {
+                int [] arr = new int[]{moon[i]};
+                for (int j = 0; j < arr.length; j++) {
+                    System.out.println(arr[j]);
+                }
+            }
+        }*/
+
+       /* 123 int [] moon = {1,2,3,4,5,6,7,8,9};
+        Scanner in = new Scanner(System.in);
+        System.out.println("input k");
+        int k = in.nextInt();
+        for (int i = 0; i < moon.length; i++) {
+            if (moon[i] % k == 2) {
+                int [] b = new int[]{moon[i]};
+                for (int j = 0; j < b.length; j++) {
+                    System.out.println(b[j]);
+                }
+            }
+        }*/
+
+
+        /* 124 Scanner in = new Scanner(System.in);
+        System.out.println("input k");
+        int k = in.nextInt();
+        int [] moon = {1,2,3,4,5,6,7,8,9};
+        for (int i = 0; i < moon.length; i++) {
+            if (Math.abs(moon[i]) > k) {
+                int [] b = new int[]{moon[i]};
+                for (int j = 0; j < b.length; j++) {
+                    System.out.println(b[j]);
+                }
+            }
+        }*/
+
+        /* 125 int [] moon = {1,2,3,4,5,6,7,8,9};
+        for (int i = 0; i < moon.length; i++) {
+            if (moon[i] % 2 != 0) {
+                int [] b = new int[]{moon[i]};
+                for (int j = 0; j < b.length; j++) {
+                    System.out.println(b[j]);
+                }
+            }
+        }*/
+
+       /* 126 int [] moon = {1,2,3,4,5,6,7,8,9};
+        for (int i = 0; i < moon.length; i++) {
+            if (moon[i] % 2 == 0) {
+                int [] b = new int[]{moon[i]};
+                for (int j = 0; j < b.length; j++) {
+                    System.out.println(b[j]);
+                }
+            }
+        }*/
+
+        /* 127 Scanner in = new Scanner(System.in);
+        System.out.println("input k");
+        int k = in.nextInt();
+        int [] moon = {34,75,23,4,99,3,6,33,53,9};
+        for (int i = 0; i < moon.length; i++) {
+            if (Math.pow(moon[i], 2) < k) {
+                int [] b = new int[]{moon[i]};
+                for (int j = 0; j < b.length; j++) {
+                    System.out.println(b[j]);
+                }
+            }
+        }*/
+
+        /* 128 int [] moon = {4,33,6,36,2,98,7,3,56};
+        int max = moon[0];
+        for (int i = 0; i < moon.length; i++) {
+            if (moon[i] > max) {
+                max = moon[i];
+            }
+        }
+        for (int i = 0; i < moon.length; i++) {
+            if (moon[i] > 0) {
+                int [] b = new int[]{moon[i]+max};
+                for (int j = 0; j < b.length; j++) {
+                    System.out.println(b[j]);
+                }
+            }
+        }*/
+
+        /*int [] moon = {1,2,3,4,5,6,7,8,9};
+        int max = moon[0];
+        for (int i = 0; i < moon.length; i+=2) {
+            if (moon[i]<moon[i+1]){
+                max = moon[i];
+                int [] b = new int[]{max};
+            }
+            else {
+                max = moon[i+1];
+                int [] b = new int[]{max};
+            }
+        }
+        for (int i = 0; i < moon[i]; i++) {
+            System.out.println(moon[i]);
+        }*/
+
+
+
+        /* 129 int [] moon = {55,8,22,5,7,31};
+        int max=0;
+        for (int i = 0; i < moon.length ; i+=2) {
+            if (moon[i] > moon[i + 1]) {
+                max = moon[i];
+                int b[] = new int[]{max};
+                for (int j = 0; j < b.length; j++) {
+                    System.out.println(Math.abs(b[j]));
+                }
+            }
+            else {
+                max = moon[i+1];
+                int [] b = new int[]{max};
+                for (int j = 0; j < b.length; j++) {
+                    System.out.println(Math.abs(b[j]));
+                }
+            }
+        }*/
+
+
+
+
+        /* 132 Scanner in = new Scanner(System.in);
+        System.out.println("input b");
+        int b = in.nextInt();
+        int [] s;
+        boolean m = false;
+        int [] moon = {-19,7,4,2,89,-8,-5,-9,-19,-90};
+        for (int i = 0; i < moon.length; i++) {
+            if (moon[i] < b) {
+                m = true;
+                break;
+            }
+        }
+        if (m) {
+            for (int i = 0; i < moon.length; i++) {
+                if (moon[i] > 0) {
+                    s = new int[]{moon[i]};
+                    for (int j = 0; j < s.length; j++) {
+                        System.out.println(s[j]);
+                    }
+                }
+            }
+        }
+        else {
+            for (int i = 0; i < moon.length; i++) {
+                if (moon[i] < 0) {
+                    s = new int[]{moon[i]};
+                    for (int j = 0; j < s.length; j++) {
+                        System.out.println(s[j]);
+                    }
+                }
+            }
+        }*/
+
+
+
+       /* 134 int [] moon = {1,2,3,4,5,6,7,8,9};
+        int max = moon[0];
+        for (int i = 0; i < moon.length; i++) {
+            if (moon[i] % 2 == 0) {
+                if (moon[i] > max) {
+                    max = moon[i];
+                }
+            }
+        }
+        for (int i = 0; i < moon.length; i++) {
+            if (moon[i] % 2 == 0) {
+                int [] b = new int[]{moon[i]+max};
+                for (int j = 0; j < b.length; j++) {
+                    System.out.println(b[j]);
+                }
+            }
+        }*/
+
+
+        /*int[]b;
+        int[]array = {44,-43,-432,33,12,3};
+        for (int i = 0; i < array.length ; i++) {
+            if (array[i] > 0) {
+                b = new int[]{array[i],0};
+                for (int j = 0; j < b.length ; j++) {
+                    System.out.println(b[j]);
+                }
+
+            }
+            else {
+                b = new int[]{array[i]};
+                for (int j = 0; j < b.length ; j++) {
+                    System.out.println(b[j]);
+                }
+            }
+        }*/
+
+
+        /* 135 int a [] = {-1,2,0,-12,23,12,-6,0,-7,8,0,-9};
+        int b []=new int[a.length];
+        int j = 0;
+        for (int i = 0; i < a.length; i++) {
+
+            if (a[i] < 0) {
+                b[j] =a[i];
+                j++;
+
+
+            }
+        }
+        for (int i = 0; i <a.length; i++) {
+            if (a[i] == 0) {
+                b[j]=a[i];
+                j++;
+            }
+        }
+        for (int i = 0; i <a.length ; i++) {
+            if (a[i]> 0){
+                b[j]=a[i];
+                j++;
+
+            }
+
+        }
+        for (int i = 0; i <b.length ; i++) {
+            System.out.println(b[i]);
+        }*/
+
+
+        /*int [] moon = {4,7,9,2,3,8,5};
+        int max = moon[0];
+        int min = moon[0];
+        for (int i = 0; i < moon.length; i++) {
+            if (moon[i] < min) {
+                min = i;
+            }
+            if (moon[i] > max) {
+                max = i;
+            }
+        }
+        for (int i = min; i < moon.length; i++) {
+            moon[min] = moon[min - 1];
+        }
+        for (int i = min; i < moon.length; i++) {
+            moon[max] = moon[max - 1];
+        }*/
+
+
+        /* 137 int[]array = {44,23,-98,7,4,245,6,76,65,88};
+        int count = 0;
+        int[]b = new int[array.length-2];
+        int d = 0;
+
+        b[d] = Math.min(array[0],array[1] );
+        b[b.length-1] = Math.max(array[array.length-1],array[array.length-2] );
+
+
+
+        for (int i = 2; i < array.length-2; i++) {
+            b[d+1] = array[i];
+            d++;
+
+        }
+        for (int i = 0; i < b.length ; i++) {
+            System.out.println(b[i]);
+        }*/
+
+        /*String d  = "Java";
+        String b = "is";
+        String v = "programming";
+        String n = "language";
+        String m = String.join(" ",d,b,v,n);
+        System.out.println(m);*/
+
+        /*byte a = 100;
+        String s = String.valueOf(a);
+        System.out.println(s.length());*/
+
+        /*String v = "wellerman";
+        String n = "C";
+        String m = "++";
+        for (int i = 0; i < v.length(); i++) {
+            if (i == 22) {
+                System.out.println(n.concat(m));
+                break;
+            }
+            else {
+                System.out.println(m.isEmpty());
+                break;
+            }
+        }*/
+
+
+        /*String j = "Java";
+        String l = "PHP";
+        String p = "C#";
+        String m = "Fortran";
+        String z = "Scratch";
+        String g = "it";
+        String c = "Rudy";
+        String k = "Go";
+        for (int i = 0; i < j.length(); i++) {
+            if (m.length() < l.length()) {
+                System.out.println(j+ z.charAt(0)+ p.charAt(0)+ z.charAt(2)+ g.charAt(0)+ l.charAt(2)+ m.charAt(3));
+                break;
+            }
+            else {
+                System.out.println(j+ " " +">"+ " " +l.charAt(0)+ c.charAt(3)+ z.charAt(4)+ z.charAt(6)+ k.charAt(1)+ m.charAt(6));
+                break;
+            }
+
+        }*/
+
+        /*String s = " Jalalala ";
+        System.out.println(s.indexOf("lala"));
+        System.out.println(s.lastIndexOf('l'));
+        System.out.println(s.startsWith("Ja"));
+        System.out.println(s.endsWith("yan"));
+        System.out.println(s.replace('a', 'c'));
+        System.out.println(s.trim());
+        System.out.println(s.substring(5, 8));
+        System.out.println(s.toLowerCase());
+        System.out.println(s.toUpperCase());
+
+        System.out.println(s.codePointAt(3));
+        System.out.println(s.codePointBefore(2));
+        System.out.println(s.codePointCount(0, 4));
+
+        String ss = "dfg gjhkh gkgkg df";
+        String[] words = ss.split("g");
+        System.out.println(words);*/
+//        for (String  i:words) {
+//            System.out.print(i);
+
+    //}
+        /*String text="ABC";
+        char [] ch=text.toCharArray();*/
+
+        //138
+        /*Scanner in = new Scanner(System.in);
+        System.out.println("input n");
+        String n = in.nextLine();
+        byte count = 0;
+        for (int i = 0; i < n.length(); i++) {
+            if(n.charAt(i)=='a'){
+                count++;
+            }
+
+        }
+        System.out.println(count);*/
+
+        /*Scanner in = new Scanner(System.in);
+        System.out.println("input s");
+        String s = in.nextLine();
+        String t="";
+        for (int i = s.length()-1; i >=0 ; i--) {
+            t+=s.charAt(i);
+
+        }
+        if(s.equals(t)){
+            System.out.println(true);
+        }
+        else{
+            System.out.println(false);
+        }*/
+
+
+
+         /*Scanner in = new Scanner(System.in);
+        System.out.println("input s");
+        String s = in.nextLine();
+        int count=0;
+        for (int i =s.indexOf('x') ; i <s.length(); i++) {
+            if(s.charAt(i)=='0'){
+                count++;
+            }
+
+        }
+        System.out.println(count);*/
+
+
+        /* 141 Scanner in = new Scanner(System.in);
+        System.out.println("input s");
+        String s = in.nextLine();
+        byte count = 0;
+        for (int i = s.indexOf('z')+1; i < s.lastIndexOf('z'); i++) {
+            count++;
+
+        }
+        System.out.println(count);*/
+
+        /* 142 Scanner in = new Scanner(System.in);
+        System.out.println("input s");
+        String s = in.nextLine();
+        System.out.println("input t");
+        String t = in.nextLine();
+        String s2="";
+        byte count = 0;
+        for (int i = 0; i < t.length(); i++) {
+             s2+=t.charAt(i);
+             if(s.contains(s2)) {
+                 count++;
+             }
+             s2="";
+            }
+        System.out.println(count);*/
+
+        /*Scanner in = new Scanner(System.in);
+        System.out.println("input s");
+        String s = in.nextLine();
+        String t = "";
+        byte count = 0;
+        for (int i = 0; i < s.length(); i++) {
+            for (int j = 0; j < s.length(); j++) {
+                if (s.charAt(i) == s.charAt(j)) {
+                    count++;
+                }
+            }
+            if (count == 1) {
+                t+=s.charAt(i);
+            }
+            count = 0;
+        }
+        System.out.println(t);*/
+
+        /*Scanner in = new Scanner(System.in);
+        System.out.println("input s");
+        String s = in.nextLine();
+        System.out.println("input t");
+        String t = in.nextLine();
+        String s1 = "";
+        for (int i = 0; i < t.length(); i++) {
+            for (int j =0; j < s.length(); j++) {
+                if (s.charAt(i) == t.charAt(j)) {
+                    s1+=t.charAt(j);
+                }
+            }
+        }
+        System.out.println(s1);*/
+
+
+        Scanner in = new Scanner(System.in);
+        System.out.println("input s");
+        String s = in.nextLine();
+        String t = "";
+        System.out.println(s.replace("a","ac"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
